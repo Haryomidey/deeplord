@@ -13,7 +13,7 @@ const Mission = () => {
       <div>
         <HeroAndNavBar BackgroundImage={BackgroundImage} content='Mission' />
         <div className='w-full h-[50vh] tablet:w-[70%] mx-auto text-center flex flex-col desktop:px-32 small:px-5 px-3 mt-10'>
-          <h1 className='tablet:text-4xl small:text-xl text-lg w-full font-semibold mb-3'>
+          <h1 className='tablet:text-4xl text-2xl w-full font-semibold mb-3'>
             Our Mission
           </h1>
           <p>Our Mission started with the passion for bridging the gap in the robust margin in the tech and human world. The passion of a burning speed of it's peak propel the idea of creating a solution oriented space in consulting and creating a space of learning in the area of technologies solution in, Agriculture, Real estate, Networking, Digital Marketing and comp............

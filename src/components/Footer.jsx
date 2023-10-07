@@ -44,10 +44,10 @@ const Footer = () => {
                 <div className = 'border-t py-3 border-white text-white w-full mobile_small:flex items-center justify-between min-h-[60px]'>
                     <p className='mobile_small:pl-7 text-center mobile_small:mb-0 mb-4'>&copy; Deep Lord Consult 2023</p >
                     <div className='flex gap-6 justify-center mobile_small:pr-7'>
-                        <i className="hover:text-[#006837] cursor-pointer transition-color duration-300 ease fa-brands fa-whatsapp"></i>
-                        <i className="hover:text-[#006837] cursor-pointer transition-color duration-300 ease fa-brands fa-twitter"></i>
-                        <i className="hover:text-[#006837] cursor-pointer transition-color duration-300 ease fa-brands fa-facebook-f"></i>
-                        <i className="hover:text-[#006837] cursor-pointer transition-color duration-300 ease fa-brands fa-instagram"></i>
+                        <a href="https://wa.me/2349038779368"><i className="hover:text-[#006837] cursor-pointer transition-color duration-300 ease fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.x.com/deeplord645371"><i className="hover:text-[#006837] cursor-pointer transition-color duration-300 ease fa-brands fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/deeplordconsult"><i className="hover:text-[#006837] cursor-pointer transition-color duration-300 ease fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/deeplordconsults"><i className="hover:text-[#006837] cursor-pointer transition-color duration-300 ease fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
             </div>

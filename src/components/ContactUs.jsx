@@ -43,7 +43,7 @@ const ContactUs = () => {
     }
     
     else {
-      emailjs.sendForm('service_70jod7pd', 'template_gx7nomo', form.current, '_bgoMuy2VRB0iFLg5')
+      emailjs.sendForm('service_70jod7p', 'template_gx7nomo', form.current, '_bgoMuy2VRB0iFLg5')
       .then((result) => {
         console.log(result);
         toast.success("Message sent succesfully!!!", {

@@ -12,14 +12,21 @@ const CodeOfEthics = () => {
     <div>
       <div>
         <HeroAndNavBar BackgroundImage={BackgroundImage} content='Code of Ethics' />
-        <div className='w-full h-[50vh] tablet:w-[70%] mx-auto text-center flex flex-col desktop:px-32 small:px-5 px-3 mt-10'>
-          <h1 className='tablet:text-4xl small:text-xl text-lg w-full font-semibold mb-3'>
+        <div className='w-full min-h-[50vh] tablet:w-[70%] mx-auto flex items-center flex-col desktop:px-32 small:px-5 px-3 pb-10 mt-10'>
+          <h1 className='tablet:text-4xl text-2xl w-full font-semibold mb-3 text-center'>
             Code of Ethics
           </h1>
-          <p>Our Mission started with the passion for bridging the gap in the robust margin in the tech and human world. The passion of a burning speed of it's peak propel the idea of creating a solution oriented space in consulting and creating a space of learning in the area of technologies solution in, Agriculture, Real estate, Networking, Digital Marketing and comp............
+          <div>
+            <ul className='flex flex-col gap-y-4 mt-5 px-5'>
+              <li className="list-disc">We take full ownership of my responsibilities and am committed to delivering results with the highest level of accountability. I consistently meet deadlines and ensure that all tasks are completed to the best of my ability. You can rely on me to take charge and be answerable for my actions in every professional endeavor.</li>
 
-          Taking into the creation of this, Joshua took in passion driven solution oriented crew that are only with the zeal of making a world reknowned consultancy organization.
-          Our objective and mission </p>
+              <li className="list-disc">We hold our clients in the highest regard, valuing their unique needs and preferences. With a deep commitment to their well-being and satisfaction, we go the extra mile to ensure they receive exceptional service and attention. Every interaction is guided by a genuine care for their success and contentment, fostering a relationship built on trust and respect.</li>
+
+              <li className="list-disc">We uphold a strong commitment to transparency and integrity in all of my professional interactions. My actions consistently align with my words, and I am dedicated to maintaining open and honest communication in every aspect of my work.</li>
+
+              <li className="list-disc">We adhere rigorously to the principles of the rule of law, ensuring that all our actions and decisions are consistently guided by legal and regulatory frameworks. This commitment underscores our dedication to upholding ethical standards and maintaining the highest levels of integrity in all our professional endeavors.</li>
+            </ul>
+          </div>
         </div>
       </div>
       <Footer />
