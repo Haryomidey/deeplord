@@ -11,7 +11,7 @@ const WhoWeAre = () => {
             <h1 className='font-semibold mobile_small:text-3xl text-xl mb-2'>Our Mission</h1>
             <p className='mobile_small:text-lg text-sm font-semibold'>
               <Link to='/our-mission'>
-                To create and Render maximum Productivity in Advance consultancy in Technology, Farming, Real Estate and Construction….
+                Our Mission started with the passion for bridging the gap in the robust margin in the tech and human world. The passion of a burning speed of it's peak propel the idea of....
               </Link>
             </p>
           </div>
