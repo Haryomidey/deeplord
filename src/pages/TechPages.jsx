@@ -10,9 +10,11 @@ const TechPages = () => {
 
     const techProduct = TechDb.find((tech) => {
       if (tech.techUrl == id) {
-          return tech;
+        return tech;
       }
     })
+  
+  document.title = 'Deeplord Consults | Tech';
 
   return (
     <div>

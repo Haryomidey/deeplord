@@ -1,8 +1,9 @@
-import Branding from '../assets/images/branding.jpg';
-import ContentCreation from '../assets/images/content-creation.png';
-import Media from '../assets/images/media.jpg';
-import Networking from '../assets/images/networking.jpg';
-import WebDev from '../assets/images/web-dev.jpg';
+import Branding from '../assets/images/branding.avif';
+import ContentCreation from '../assets/images/content-creation.avif';
+import Media from '../assets/images/media.avif';
+import Networking from '../assets/images/networking.avif';
+import WebDev from '../assets/images/web-dev.avif';
+import DigitalMarketing from '../assets/images/digital-marketing.avif';
 
 const TechDb = [
     {
@@ -39,6 +40,13 @@ const TechDb = [
         contentTitle: 'WEB DEV/DESIGN',
         techUrl: 'web-development',
         contentDetails: 'We provide network infrastructure, designs and implementation, technical support for Networking services, adequate network security and network routine troubleshooting.'
+    },
+    {
+        id: 6,
+        image: DigitalMarketing,
+        contentTitle: 'DIGITAL MARKETING',
+        techUrl: 'digital-marketing',
+        contentDetails: `Digital marketing isn't just about reaching your audience; it's about forging meaningful connections that drive growth and loyalty. Let's embark on this transformative journey together. Elevate your brand, captivate your audience, and leave an indelible mark on the digital landscape. Get in touch with us today and let's make your digital dreams a reality!`
     }
 ]
 

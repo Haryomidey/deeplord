@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom';
 import LogoWhite from '../assets/images/logo_white.png';
 
 const Footer = () => {
@@ -14,30 +15,29 @@ const Footer = () => {
                         </div>
                     </div>
                     
-                    <div>
+                    {/* <div>
                         <h1 className='text-lg font-semibold'>Communities</h1>
                         <ul className='mt-3 text-sm mobile_small:text-md'>
-                            <li className='mb-3'>For Talents</li>
-                            <li className='mb-3'>For Companies</li>
-                            <li className='mb-3'>Facebook Group</li>
-                            <li className='mb-3'>FAQ</li>
+                            <li className='mb-3 hover:text-[#006837]'>For Talents</li>
+                            <li className='mb-3 hover:text-[#006837]'>For Companies</li>
+                            <li className='mb-3 hover:text-[#006837]'>Facebook Group</li>
+                            <li className='mb-3 hover:text-[#006837]'>FAQ</li>
                         </ul>
-                    </div>
+                    </div> */}
                     <div>
                         <h1 className='text-lg font-semibold'>About Us</h1>
                         <ul className='mt-3 text-sm mobile_small:text-md'>
-                            <li className='mb-3'>Code of ethics</li>
-                            <li className='mb-3'>Our Story</li>
-                            {/* <li className='mb-3'>Career</li> */}
+                            <li className='mb-3'><Link to='/code-of-ethics' className='hover:text-[#006837] transition ease duration-300'>Code of ethics</Link></li>
+                            <li className='mb-3'><Link to='/our-mission' className='hover:text-[#006837] transition ease duration-300'>Our Mission</Link></li>
                         </ul>
                     </div>
                     <div>
                         <h1 className='text-lg font-semibold'>Contacts</h1>
                         <ul className='mt-3 text-sm mobile_small:text-md'>
                             <li className='mobile_small:w-[250px] max-w-[75%] w-full mb-3'>Feel free to get in touch with us via phone or send us message.</li>
-                            <li className='mb-3'>+234-456-7890</li>
-                            <li className='mb-3'>test123@example.com</li>
-                            <li className='mb-3'>Contact Us</li>
+                            <li className='mb-3'>+234-903-877-9368</li>
+                            <li className='mb-3'>deeplordconsults@gmail.com</li>
+                            <li className='mb-3'><Link to='/contact-us' className='hover:text-[#006837] transition ease duration-300'>Contact Us</Link></li>
                         </ul>
                     </div>
                 </div>

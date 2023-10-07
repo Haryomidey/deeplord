@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 
 import { HomesDb } from '../DBs/HomesDb';
 import DisplayImages from '../components/DisplayImages';
-import BackgroundImage from '../assets/images/home_bg.jpg';
+import BackgroundImage from '../assets/images/home_bg.avif';
 
 
 const EachHome = () => {
@@ -16,12 +16,12 @@ const EachHome = () => {
     const [isPictureClicked, setIsPictureClicked] = useState(false);
 
     const homeDetails = HomesDb.find((home) => {
-      if (home.homesUrl == id) {
-        return home;
-      }
-    })
+        if (home.homesUrl == id) {
+            return home;
+        }
+    });
 
-    console.log(id)
+    document.title = 'Deeplord Consults | Home';
 
   return (
     <div>

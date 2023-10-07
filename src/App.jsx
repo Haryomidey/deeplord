@@ -6,6 +6,8 @@ import TechPages from './pages/TechPages';
 import HomesPage from './pages/HomesPage';
 import EachHome from './pages/EachHome';
 import TechPage from './pages/TechPage';
+import Mission from './pages/Mission';
+import CodeOfEthics from './pages/CodeOfEthics';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path='/homes' element = {<HomesPage />} />
         <Route path='/home/:id' element = {<EachHome />} />
         <Route path='/tech' element = {<TechPage />} />
+        <Route path='/our-mission' element = {<Mission />} />
+        <Route path='/code-of-ethics' element = {<CodeOfEthics />} />
       </Routes>
     </div>
   )

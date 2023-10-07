@@ -1,5 +1,5 @@
 import React from 'react';
-import BackgroundImage from '../assets/images/hero-3.jpeg';
+import BackgroundImage from '../assets/images/hero-3.avif';
 
 const SecondSection = () => {
   return (

@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-import DisplayImage from '../assets/images/tech-1.jpg';
+import DisplayImage from '../assets/images/contact.avif';
 import '../App.css';
 
 const ContactUs = () => {
@@ -43,7 +43,7 @@ const ContactUs = () => {
     }
     
     else {
-      emailjs.sendForm('service_70jod7pde', 'template_gx7nomo', form.current, '_bgoMuy2VRB0iFLg5')
+      emailjs.sendForm('service_70jod7pd', 'template_gx7nomo', form.current, '_bgoMuy2VRB0iFLg5')
       .then((result) => {
         console.log(result);
         toast.success("Message sent succesfully!!!", {
@@ -63,9 +63,9 @@ const ContactUs = () => {
 
   return (
     <div>
-      <div className='min-h-[70vh] px-5 py-6 w-full laptop:flex items-center justify-center gap-28 mx-auto'>
+      <div className='min-h-[70vh] px-5 py-10 w-full laptop:flex items-center justify-center gap-28 mx-auto mt-10'>
         <div className='laptop:w-[40%] w-[100%] laptop:h-[500px] h-[300px] laptop:relative laptop:left-20'>
-          <img src={DisplayImage} className='h-full  w-full object-cover shadow-lg rounded-xl' alt="" />
+          <img src={DisplayImage} className='h-full  w-full shadow-lg rounded-xl' alt="" />
         </div>
         <div className='laptop:w-[38%] w-full laptop:relative right-20 rounded-lg custom_shadow bg-white flex flex-col justify-center items-center py-10 px-2 mt-6 laptop:mt-0 laptop:px-5'>
           <h1 className='laptop:text-3xl text-xl font-semibold text-center text-gray-800'>

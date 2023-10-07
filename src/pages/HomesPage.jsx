@@ -3,14 +3,14 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-import BackgroundImage from '../assets/images/tech-1.jpg';
+import BackgroundImage from '../assets/images/home_bg.avif';
 
 import { HomesDb } from '../DBs/HomesDb';
 import HomesCard from '../components/HomesCard';
 import HeroAndNavBar from '../components/HeroAndNavBar';
 
 const HomesPage = () => {
-
+  document.title = 'Deeplord Consults | Home';
   return (
     <div>
       <div>

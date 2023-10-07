@@ -2,10 +2,11 @@ import React from 'react';
 
 import Footer from '../components/Footer';
 
-import BackgroundImage from '../assets/images/tech-1.jpg';
+import BackgroundImage from '../assets/images/contact.avif';
 import HeroAndNavBar from '../components/HeroAndNavBar';
 
 const ContactUsPage = () => {
+  document.title = 'Deeplord Consults | Contact';
   return (
     <div>
       <div>
@@ -20,7 +21,7 @@ const ContactUsPage = () => {
                 <div>
                   <p className='font-bold tablet:text-2xl text-lg'>Whatsapp</p>
                   <p className='text-lg font-semibold'>09038779368</p>
-                  <p className='laptop:text-lg text-sm break-all'>Click<a href="https://wa.me/2349038779368" className='ml-2 font-semibold' target="_blank" rel="noopener noreferrer">https://wa.me/2349033000001</a></p>
+                  <p className='laptop:text-lg text-sm break-all'>Click<a href="https://wa.me/2349038779368" className='ml-2 font-semibold' target="_blank" rel="noopener noreferrer">https://wa.me/2349038779368</a></p>
                 </div>
               </li>
               <li className='flex items-center gap-2 mb-6 px-1'>
@@ -29,7 +30,7 @@ const ContactUsPage = () => {
                 </span>
                 <div>
                   <p className='font-bold tablet:text-2xl text-lg'>Twitter</p>
-                  <p className='laptop:text-lg text-sm break-all'>Click<a href="https://wa.me/2349038779368" className='ml-2 font-semibold' target="_blank" rel="noopener noreferrer">https://wa.me/2349033000001</a></p>
+                  <p className='laptop:text-lg text-sm break-all'>Click<a href="https://www.x.com/deeplord645371" className='ml-2 font-semibold' target="_blank" rel="noopener noreferrer">Deeplord645371</a></p>
                 </div>
               </li>
               <li className='flex items-center gap-2 mb-6 px-1'>
@@ -38,17 +39,7 @@ const ContactUsPage = () => {
                 </span>
                 <div>
                   <p className='font-bold tablet:text-2xl text-lg'>Facebook</p>
-                  <p className='laptop:text-lg text-sm break-all'>Click<a href="https://wa.me/2349038779368" className='ml-2 font-semibold' target="_blank" rel="noopener noreferrer">http://www.facebook.com/MTNLoaded</a></p>
-                </div>
-              </li>
-              <li className='flex items-center gap-2 mb-6 px-1'>
-                <span className='bg-[#006837] text-white laptop:h-14 laptop:w-14 h-10 w-10 rounded-full flex items-center justify-center laptop:text-2xl text-lg'>
-                  <i className="cursor-pointer fa-solid fa-phone"></i>
-                </span>
-                <div>
-                  <p className='font-bold tablet:text-2xl text-lg'>Call</p>
-                  <p className='text-lg font-semibold'>09038779368</p>
-                  <p className='laptop:text-lg text-sm break-all'>Click<a href="https://wa.me/2349038779368" className='ml-2 font-semibold' target="_blank" rel="noopener noreferrer">https://wa.me/2349033000001</a></p>
+                  <p className='laptop:text-lg text-sm break-all'>Click<a href="https://www.facebook.com/deeplordconsult" className='ml-2 font-semibold' target="_blank" rel="noopener noreferrer">Deep Lord Consult</a></p>
                 </div>
               </li>
             </ul>
@@ -60,7 +51,7 @@ const ContactUsPage = () => {
                 </span>
                 <div>
                   <p className='font-bold tablet:text-2xl text-lg'>Instagram</p>
-                  <p className='laptop:text-lg text-sm break-all'>Click<a href="https://wa.me/2349038779368" className='ml-2 font-semibold' target="_blank" rel="noopener noreferrer">https://www.instagram.com/mtnng</a></p>
+                  <p className='laptop:text-lg text-sm break-all'>Click<a href="https://www.instagram.com/deeplordconsults" className='ml-2 font-semibold' target="_blank" rel="noopener noreferrer">https://www.instagram.com/deeplordconsults</a></p>
                 </div>
               </li>
 
@@ -80,7 +71,7 @@ const ContactUsPage = () => {
                 </span>
                 <div>
                   <p className='font-bold tablet:text-2xl text-lg'>Address</p>
-                  <p className='laptop:text-lg text-sm break-all'>Wesco Estate, Akure Ondo State.</p>
+                  <p className='laptop:text-lg text-sm break-all'>Peace Villa, FUTA Road Akure Ondo State.</p>
                 </div>
               </li>
             </ul>
