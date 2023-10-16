@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 const DisplayImages = ({ homeDetails, isPictureClicked, setIsPictureClicked }) => {
     const [isShowClicked, setIsShowClicked] = useState(false);
     const [imageLarge, setImageLarge] = useState('');
-    const [images, setImages] = useState(homeDetails.otherImages);
+    const [images] = useState(homeDetails.otherImages);
     const [value, setValue] = useState(0);
 
     const handleImageClicked = (e) => {

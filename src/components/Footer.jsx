@@ -11,19 +11,9 @@ const Footer = () => {
                         <img src={LogoWhite} alt="" className='tablet:w-[200px] w-[100px] mobile_small:w-[150px]' />
                         <div>
                             <p className='w-full text-white pt-7 text-sm mobile_small:text-md'>Your ultimate email solution to grow business and engaging with the future customer and clients.</p>
-                            <button className='text-white mt-5 px-8 py-3 bg-[#006837]'>Ask questions</button>
                         </div>
                     </div>
-                    
-                    {/* <div>
-                        <h1 className='text-lg font-semibold'>Communities</h1>
-                        <ul className='mt-3 text-sm mobile_small:text-md'>
-                            <li className='mb-3 hover:text-[#006837]'>For Talents</li>
-                            <li className='mb-3 hover:text-[#006837]'>For Companies</li>
-                            <li className='mb-3 hover:text-[#006837]'>Facebook Group</li>
-                            <li className='mb-3 hover:text-[#006837]'>FAQ</li>
-                        </ul>
-                    </div> */}
+                
                     <div>
                         <h1 className='text-lg font-semibold'>About Us</h1>
                         <ul className='mt-3 text-sm mobile_small:text-md'>

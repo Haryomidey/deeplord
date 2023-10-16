@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const HomesCard = ({ home }) => {
 
   return (
-    <Link to = {`/home/${home.homesUrl}`} className='small:w-[350px] min-h-[500px] rounded-2xl bg-white shadow-md'>
+    <Link to = {`/homes/${home.homesUrl}`} className='small:w-[350px] min-h-[500px] rounded-2xl bg-white shadow-md'>
       <div className='w-full h-[300px]'>
         <img src={home.homesDisplayImage} className='w-full object-cover h-full rounded-t-2xl' alt="" />
       </div>
@@ -18,7 +18,7 @@ const HomesCard = ({ home }) => {
             {home.features.slice(0, 1).map((feat) => (<li className='inline-block'>{feat.slice(0,3)},</li>))}
             ...
           </ul>
-          <p className=''><span className='material-symbols-outlined custom_translate text-center hover:bg-slate-200 transition-bg ease duration-300 rounded-full'>chevron_right</span></p>
+          <p className=''><span className='material-symbols-outlined text-center hover:bg-slate-200 transition-bg ease duration-300 rounded-full'>chevron_right</span></p>
         </p>
       </div>
     </Link>
