@@ -11,9 +11,10 @@ const ContactUsPage = () => {
     <div>
       <div>
         <HeroAndNavBar BackgroundImage={BackgroundImage} content = 'Contact Us' />
-        <div className='min-h-[50vh] my-20'>
-          <div className='flex flex-wrap justify-center desktop:gap-40 gap-10 px-2'>
-            <ul className="">
+        <div className='min-h-[50vh] my-20 px-2 smallest:px-4 mobile:px-8 laptop:px-20'>
+          <div className='flex flex-wrap justify-between gap-10 px-2'>
+
+            <ul className="w-full tablet:w-[45%]">
               <li className='flex items-center gap-2 mb-6 px-1'>
                 <span className='bg-[#006837] text-white laptop:h-14 laptop:w-14 h-10 w-10 rounded-full flex items-center justify-center laptop:text-2xl text-lg'>
                   <i className="cursor-pointer fa-brands fa-whatsapp"></i>
@@ -44,7 +45,7 @@ const ContactUsPage = () => {
               </li>
             </ul>
 
-            <ul className="">
+            <ul className="w-full tablet:w-[45%]">
               <li className='flex items-center gap-2 mb-6 px-1'>
                 <span className='bg-[#006837] text-white laptop:h-14 laptop:w-14 h-10 w-10 rounded-full flex items-center justify-center laptop:text-2xl text-lg'>
                   <i className="cursor-pointer fa-brands fa-instagram"></i>
