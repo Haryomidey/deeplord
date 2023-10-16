@@ -16,10 +16,11 @@ const Mission = () => {
           <h1 className='tablet:text-4xl text-2xl w-full font-semibold mb-3'>
             Our Mission
           </h1>
-          <p>Our Mission started with the passion for bridging the gap in the robust margin in the tech and human world. The passion of a burning speed of it's peak propel the idea of creating a solution oriented space in consulting and creating a space of learning in the area of technologies solution in, Agriculture, Real estate, Networking, Digital Marketing and comp............
+          <p>
+            Our mission commenced with a fervent desire to narrow the substantial divide between the realms of technology and human endeavor. Fueled by an unwavering commitment to rapid progress, this vision spurred the creation of a consultancy dedicated to solution-centric approaches, while concurrently establishing an educational enclave focused on technological solutions within the domains of Agriculture, Real Estate, Networking, Digital Marketing, and Construction.
 
-          Taking into the creation of this, Joshua took in passion driven solution oriented crew that are only with the zeal of making a world reknowned consultancy organization.
-          Our objective and mission </p>
+            Our team comprises impassioned professionals united by a common purpose: to devise and deliver strategic solutions through consultancy services.
+          </p>
         </div>
       </div>
       <Footer />

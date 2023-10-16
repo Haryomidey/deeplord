@@ -16,6 +16,8 @@ const ContactUs = () => {
     message: ''
   });
 
+  const [loading, setLoading] = useState(false);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevFormData) => ({
@@ -35,16 +37,20 @@ const ContactUs = () => {
 
     // service_70jod7p
 
+    setLoading(true);
+
     if (!isFormFilled()) {
       toast.error("Input Fields Cannot be blank!!!", {
         position: toast.POSITION.TOP_RIGHT,
         className: 'toast-message text-sm'
       });
+      setLoading(false);
     }
     
     else {
       emailjs.sendForm('service_70jod7p', 'template_gx7nomo', form.current, '_bgoMuy2VRB0iFLg5')
       .then((result) => {
+        setLoading(false);
         console.log(result);
         toast.success("Message sent succesfully!!!", {
           position: toast.POSITION.TOP_RIGHT,
@@ -52,6 +58,7 @@ const ContactUs = () => {
         });
         e.target.reset();
       }, (error) => {
+        setLoading(false);
         console.log(error);
         toast.error("Unable to send message!!!", {
           position: toast.POSITION.TOP_RIGHT,
@@ -77,9 +84,14 @@ const ContactUs = () => {
             <textarea value={formData.message} onChange={handleChange} className='w-[100%] px-3 py-2 border-2 outline-none' name="message" placeholder='Enter your message'>
 
             </textarea>
-            <button type="submit" value="Send" className='bg-[#006837] outline-none text-white text-lg py-2 font-semibold'>
+            <div className='w-full relative'>
+              <button type="submit" value="Send" className='w-full bg-[#006837] outline-none text-white text-lg py-2 font-semibold '>
               Message Us
-            </button>
+              </button>
+              {loading && <div className='absolute top-0 left-0 h-full w-full loading bg-[#0000007a]'>
+
+              </div>}
+            </div>
           </form>
         </div>
       </div>
