@@ -35,8 +35,6 @@ const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // service_70jod7p
-
     setLoading(true);
 
     if (!isFormFilled()) {
@@ -72,7 +70,7 @@ const ContactUs = () => {
     <div>
       <div className='min-h-[70vh] px-5 py-10 w-full laptop:flex items-center justify-center gap-28 mx-auto mt-10'>
         <div className='laptop:w-[40%] w-[100%] laptop:h-[500px] h-[300px] laptop:relative laptop:left-20'>
-          <img src={DisplayImage} className='h-full  w-full shadow-lg rounded-xl' alt="" />
+          <img src={DisplayImage} className='h-full object-cover w-full shadow-lg rounded-xl' alt="" />
         </div>
         <div className='laptop:w-[38%] w-full laptop:relative right-20 rounded-lg custom_shadow bg-white flex flex-col justify-center items-center py-10 px-2 mt-6 laptop:mt-0 laptop:px-5'>
           <h1 className='laptop:text-3xl text-xl font-semibold text-center text-gray-800'>
