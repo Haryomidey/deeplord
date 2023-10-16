@@ -18,11 +18,11 @@ const CodeOfEthics = () => {
           </h1>
           <div>
             <ul className='flex flex-col gap-y-4 mt-5 px-5'>
-              <li className="list-disc">We take full ownership of our responsibilities and we are committed to delivering results with the highest level of accountability. our consistently meet deadlines and ensure that all tasks are completed to the best of our ability. You can rely on me to take charge and be answerable for our actions in every professional endeavor.</li>
+              <li className="list-disc">We take full ownership of our responsibilities and we are committed to delivering results with the highest level of accountability. we consistently meet deadlines and ensure that all tasks are completed to the best of our ability. You can rely on us to take charge and be answerable for our actions in every professional endeavor.</li>
 
               <li className="list-disc">We hold our clients in the highest regard, valuing their unique needs and preferences. With a deep commitment to their well-being and satisfaction, we go the extra mile to ensure they receive exceptional service and attention. Every interaction is guided by a genuine care for their success and contentment, fostering a relationship built on trust and respect.</li>
 
-              <li className="list-disc">We uphold a strong commitment to transparency and integrity in all of my professional interactions. our actions consistently align with our words, and we are dedicated to maintaining open and honest communication in every aspect of our work.</li>
+              <li className="list-disc">We uphold a strong commitment to transparency and integrity in all of our professional interactions. our actions consistently align with our words, and we are dedicated to maintaining open and honest communication in every aspect of our work.</li>
 
               <li className="list-disc">We adhere rigorously to the principles of the rule of law, ensuring that all our actions and decisions are consistently guided by legal and regulatory frameworks. This commitment underscores our dedication to upholding ethical standards and maintaining the highest levels of integrity in all our professional endeavors.</li>
             </ul>
