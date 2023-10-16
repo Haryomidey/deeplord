@@ -11,7 +11,7 @@ const ContactUsPage = () => {
     <div>
       <div>
         <HeroAndNavBar BackgroundImage={BackgroundImage} content = 'Contact Us' />
-        <div className='min-h-[50vh] my-20 px-2 smallest:px-4 mobile:px-8 laptop:px-20'>
+        <div className='min-h-[50vh] my-20 x-2 smallest:px-4 mobile:px-8 laptop:px-20'>
           <div className='flex flex-wrap justify-between gap-10 px-2'>
 
             <ul className="w-full tablet:w-[45%]">
