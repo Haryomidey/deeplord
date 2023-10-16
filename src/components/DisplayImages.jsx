@@ -38,7 +38,7 @@ const DisplayImages = ({ homeDetails, isPictureClicked, setIsPictureClicked }) =
 
   return (
     <div className='relative'>
-        <div className={`fixed ${isPictureClicked ? 'top-0':'top-[100%]'} transition-top ease duration-700 right-0 left-0 z-50 bg-white w-full`}>
+        <div className={`fixed ${isPictureClicked ? 'top-0':'top-[100%]'} transition-top ease duration-500 right-0 left-0 z-50 bg-white w-full`}>
             <div className='overflow-y-scroll h-[100vh] hide_scroll_bar'>
                 <div className='fixed w-full h-12 flex items-center custom_index bg-white shadow'>
                     <span className="material-symbols-outlined ml-3 hover:bg-slate-200 transition-bg duration-300 ease p-1 rounded-full cursor-pointer" onClick={() => setIsPictureClicked(false)}>
@@ -49,7 +49,7 @@ const DisplayImages = ({ homeDetails, isPictureClicked, setIsPictureClicked }) =
                     {homeDetails.otherImages.map((image, index) => (
                         <div className='tablet:w-[400px] mobile:w-[60%] small:w-[80%] w-[100%] h-full flex bg-transparent items-center' key={index} >
                             <img src={image} onClick={() => handleImageClicked(image)} className='w-full' alt="" />
-                            <div className={`fixed ${isShowClicked ? 'top-0':'top-[100%]'} transition-top ease duration-700 right-0 left-0 z-20 bg-black w-full h-full`}>
+                            <div className={`fixed ${isShowClicked ? 'top-0':'top-[100%]'} transition-top ease duration-300 right-0 left-0 z-20 bg-black w-full h-full`}>
                                 <p className='w-full text-right'>
                                     <span className="material-symbols-outlined bg-white m-5 hover:bg-slate-200 transition-bg duration-300 ease p-1 rounded-full cursor-pointer" onClick={() => setIsShowClicked(false)}>
                                         close
@@ -57,10 +57,10 @@ const DisplayImages = ({ homeDetails, isPictureClicked, setIsPictureClicked }) =
                                 </p>
                                 <div className='w-full h-full bg-[#000000fd] pb-5 flex items-center justify-center px-5'>
                                     <div className='mt-[-80px] absolute w-full flex items-center justify-between outline-none'>
-                                        <span className="material-symbols-outlined bg-white m-5 hover:bg-slate-200 transition-bg duration-300 ease p-1 rounded-full cursor-pointer" onClick={handleDecrease}>
+                                        <span className="material-symbols-outlined bg-white m-5 hover:bg-slate-200 transition-bg duration-300 ease p-1 rounded-full cursor-pointer select-none" onClick={handleDecrease}>
                                             chevron_left
                                         </span>
-                                        <span className="material-symbols-outlined bg-white m-5 hover:bg-slate-200 transition-bg duration-300 ease p-1 rounded-full cursor-pointer" onClick={handleIncrease}>
+                                        <span className="material-symbols-outlined bg-white m-5 hover:bg-slate-200 transition-bg duration-300 ease p-1 rounded-full cursor-pointer select-none" onClick={handleIncrease}>
                                             chevron_right
                                         </span>
                                     </div>
