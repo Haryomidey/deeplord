@@ -9,7 +9,7 @@ const WhoWeAre = () => {
         <div className='laptop:w-[34rem] min-h-[240px] rounded-xl laptop:relative laptop:left-[60px] z-10 mx-auto bg-white custom_shadow laptop:px-[50px] px-4 py-8 flex flex-col w-full justify-center'>
           <div>
             <h1 className='font-semibold mobile_small:text-3xl text-xl mb-2'>Our Mission</h1>
-            <p className='mobile_small:text-lg text-sm font-semibold'>
+            <p className='mobile_small:text-lg text-sm'>
               <Link to='/our-mission'>
                 Our mission commenced with a fervent desire to narrow the substantial divide between the realms of technology and human endeavor. Fueled by an unwavering commitment....
               </Link>
@@ -17,7 +17,7 @@ const WhoWeAre = () => {
           </div>
           <div className = "mt-8">
             <h1 className='font-semibold mobile_small:text-3xl text-xl mb-2'>Our Vision</h1>
-            <p className='mobile_small:text-lg text-sm font-semibold'>Our vision is to be globally recognized for excellence in productivity, creativity, accountability and stewardship with maximum integrity.</p>
+            <p className='mobile_small:text-lg text-sm'>Our vision is to be globally recognized for excellence in productivity, creativity, accountability and stewardship with maximum integrity.</p>
           </div>
         </div>
         <div className='laptop:w-[600px] relative desktop:right-[80px] w-full laptop:mt-0 mt-3'>

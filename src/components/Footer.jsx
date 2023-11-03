@@ -26,7 +26,7 @@ const Footer = () => {
                         <ul className='mt-3 text-sm mobile_small:text-md'>
                             <li className='mobile_small:w-[250px] max-w-[75%] w-full mb-3'>Feel free to get in touch with us via phone or send us message.</li>
                             <li className='mb-3'>+234-903-877-9368</li>
-                            <li className='mb-3'>deeplordconsults@gmail.com</li>
+                            <li className='mb-3'><a href="mailto:deeplordconsults@gmail.com" className="hover:text-[#006837] transition ease duration-300">deeplordconsults@gmail.com</a></li>
                             <li className='mb-3'><Link to='/contact-us' className='hover:text-[#006837] transition ease duration-300'>Contact Us</Link></li>
                         </ul>
                     </div>
@@ -35,7 +35,7 @@ const Footer = () => {
                     <p className='mobile_small:pl-7 text-center mobile_small:mb-0 mb-4'>&copy; Deep Lord Consult 2023</p >
                     <div className='flex gap-6 justify-center mobile_small:pr-7'>
                         <a href="https://wa.me/2349038779368"><i className="hover:text-[#006837] cursor-pointer transition-color duration-300 ease fa-brands fa-whatsapp"></i></a>
-                        <a href="https://www.x.com/deeplord645371"><i className="hover:text-[#006837] cursor-pointer transition-color duration-300 ease fa-brands fa-twitter"></i></a>
+                        <a href="https://www.x.com/deeplord645371"><i className="hover:text-[#006837] cursor-pointer transition-color duration-300 ease fa-brands fa-x-twitter"></i></a>
                         <a href="https://www.facebook.com/deeplordconsult"><i className="hover:text-[#006837] cursor-pointer transition-color duration-300 ease fa-brands fa-facebook-f"></i></a>
                         <a href="https://www.instagram.com/deeplordconsults"><i className="hover:text-[#006837] cursor-pointer transition-color duration-300 ease fa-brands fa-instagram"></i></a>
                     </div>
