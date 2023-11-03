@@ -15,6 +15,7 @@ a.active{
 
 .custom_width{
   width: 300px;
+  color: #000000b0;
 }
 
 .hide_scroll_bar::-webkit-scrollbar{

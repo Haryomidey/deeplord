@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div className=''>
       <div style={{backgroundImage: `url(${BackgroundImage})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}} className='h-[100vh]'>
-        <div className='w-full h-full bg-[#00000077]'>
+        <div className='w-full h-full bg-[#000000b0]'>
           <Navbar />
           <HeroSection/>
         </div>
