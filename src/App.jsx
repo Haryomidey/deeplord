@@ -12,7 +12,7 @@ import CodeOfEthics from './pages/CodeOfEthics';
 function App() {
   return (
     <Routes>
-      <Route path='/' exact element = {<Home />} />
+      <Route path='/' element = {<Home />} />
       <Route path='/farms' element = {<FarmPage />} />
       <Route path='/contact-us' element = {<ContactUsPage />} />
       <Route path='/tech/:id' element = {<TechPages />} />
