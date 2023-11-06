@@ -17,18 +17,18 @@ const Navbar = () => {
 
     useEffect(() => {
         const navbarOutsideClick = (e) => {
-        if (!navbarRef.current.contains(e.target)) {
-            setIsMenuClicked(false);
-        }
-            else {
-            setIsMenuClicked(true);
-        }
+            if (!navbarRef.current.contains(e.target)) {
+                setIsMenuClicked(false);
+            }
+                else {
+                setIsMenuClicked(true);
+            }
         }
 
         document.addEventListener('mousedown', navbarOutsideClick);
 
         return () => {
-        document.removeEventListener('mousedown', navbarOutsideClick);
+            document.removeEventListener('mousedown', navbarOutsideClick);
         }
         
     }, []);

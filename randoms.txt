@@ -1,0 +1,117 @@
+
+// Root directory .htaccess file
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteRule . /index.html [L]
+</IfModule> 
+
+
+// Root directory vercel.json
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
+
+
+// Public folder staticwebapp.config.json
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
+  }
+}
+
+//Public folder routes.json
+{
+  "routes": [
+    {
+      "route": "/*",
+      "serve": "/index.html",
+      "statusCode": 200
+    }
+ ],
+ "navigationFallback": {
+    "rewrite": "index.html",
+    "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
+  }
+}
+
+
+module.exports = {
+  devServer: {
+    historyApiFallback: true
+  }
+}
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+// import App from './App.jsx';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
+
+import ContactUsPage from './pages/ContactUsPage';
+import FarmPage from './pages/FarmPage';
+import Home from './pages/Home';
+import TechPages from './pages/TechPages';
+import HomesPage from './pages/HomesPage';
+import EachHome from './pages/EachHome';
+import TechPage from './pages/TechPage';
+import Mission from './pages/Mission';
+import CodeOfEthics from './pages/CodeOfEthics';
+
+import './index.css';
+import ScrollToTop from './components/ScrollToTop.jsx';
+
+// serve dist -s -n -L -p $PORT
+
+
+  const router = createHashRouter([
+    {
+      path: "/",
+      element: <Home />,
+    },
+    {
+      path: "/farms",
+      element: <FarmPage />,
+    },
+    {
+      path: "/contact-us",
+      element: <ContactUsPage />,
+    },
+    {
+      path: "/tech",
+      element: <TechPage />,
+    },
+    {
+      path: "/tech/:id",
+      element: <TechPages />,
+    },
+    {
+      path: "/homes",
+      element: <HomesPage />,
+    },
+    {
+      path: "/homes/:id",
+      element: <EachHome />,
+    },
+    {
+      path: "/our-mission",
+      element: <Mission />,
+    },
+    {
+      path: "/code-of-ethics",
+      element: <CodeOfEthics />,
+    },
+  ]);
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <RouterProvider router={router} />
+)

@@ -49,7 +49,7 @@ const DisplayImages = ({ homeDetails, isPictureClicked, setIsPictureClicked }) =
                     {homeDetails.otherImages.map((image, index) => (
                         <div className='tablet:w-[400px] mobile:w-[60%] small:w-[80%] w-[100%] h-full flex bg-transparent items-center' key={index} >
                             <img src={image} onClick={() => handleImageClicked(image)} className='w-full' alt="" />
-                            <div className={`fixed ${isShowClicked ? 'top-0':'top-[100%]'} transition-top ease duration-300 right-0 left-0 z-20 bg-black w-full h-full`}>
+                            <div className={`fixed ${isShowClicked ? 'top-0':'top-[100%]'} right-0 left-0 z-20 bg-black w-full h-full`}>
                                 <p className='w-full text-right'>
                                     <span className="material-symbols-outlined bg-white m-5 hover:bg-slate-200 transition-bg duration-300 ease p-1 rounded-full cursor-pointer" onClick={() => setIsShowClicked(false)}>
                                         close
