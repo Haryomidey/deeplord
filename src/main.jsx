@@ -1,16 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App.jsx';
-import { HashRouter as Router } from 'react-router-dom';
 
 import './index.css';
-import ScrollToTop from './components/ScrollToTop.jsx';
+import Router from './router/main.route.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Router>
-      <ScrollToTop />
-      <App />
-    </Router>
+    <Router />
   </React.StrictMode>,
 )

@@ -14,13 +14,6 @@ const TechDb = [
         contentDetails: `What's your challenge? Let us know what's bothering you, what you want to achieve in your business, and we'll create a brand that's just right for you.`
     },
     {
-        id: 2,
-        image: ContentCreation,
-        contentTitle: 'CONTENT CREATION',
-        techUrl: 'content-creation',
-        contentDetails: `High-quality content is not just an extra benefits, it's a must-have. We strive to make lasting impressions on our audience. Our team of content creators produces captivating and compelling material that catches the eye and stays in the memory.`
-    },
-    {
         id: 3,
         image: Media,
         contentTitle: 'MEDIA/DISTRIBUTION',
