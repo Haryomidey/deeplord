@@ -14,7 +14,7 @@ const About = () => {
                     <p className='mt-8'>
                         Deeplord Consult offers a full range of branding and marketing services to help companies build stronger connections with their target audience. Our team of experienced strategists, designers, and writers work closely with each client to deeply understand their business, competitors, and customers. This allows us to develop branding that authentically represents our clients' identity and messaging that truly resonates with their audience.
                     </p>
-                    <p className='text-left font-semibold mt-6'>Some of our core branding services include:</p>
+                    <p className='text-center w-full max-w-[600px] mx-auto font-semibold mt-6'>Some of our core branding services include:</p>
 
                     <ul className='text-left w-full mt-3 grid gap-3'>
                         <li>- Brand strategy - We help clients articulate their mission, values, personality, and positioning in the marketplace. This provides a solid foundation for all branding and marketing efforts.</li>
