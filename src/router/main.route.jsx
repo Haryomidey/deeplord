@@ -12,6 +12,8 @@ import DigitalMarketing from "../pages/TechPages/DigitalMarketing";
 import MediaDistribution from "../pages/TechPages/MediaDistribution";
 import Networking from "../pages/TechPages/Networking";
 import ScrollToTop from '../components/ScrollToTop';
+import WebDevelopment from "../pages/TechPages/WebDevelopment";
+import About from "../pages/About";
 
 const Router = () => {
     return (
@@ -24,11 +26,13 @@ const Router = () => {
                 <Route path='/tech/digital-marketing' element = {<DigitalMarketing />} />
                 <Route path='/tech/media-distribution' element = {<MediaDistribution />} />
                 <Route path='/tech/networking' element = {<Networking />} />
+                <Route path='/tech/web-development' element = {<WebDevelopment />} />
                 <Route path='/homes' element = {<HomesPage />} />
                 <Route path='/homes/:id' element = {<EachHome />} />
                 <Route path='/tech' element = {<TechPage />} />
                 <Route path='/our-mission' element = {<Mission />} />
                 <Route path='/code-of-ethics' element = {<CodeOfEthics />} />
+                <Route path='/about-us' element = {<About />} />
             </Routes>
             <ScrollToTop />
         </HashRouter>

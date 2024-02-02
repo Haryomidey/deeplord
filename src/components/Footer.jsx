@@ -19,6 +19,7 @@ const Footer = () => {
                         <ul className='mt-3 text-sm mobile_small:text-md'>
                             <li className='mb-3'><Link to='/code-of-ethics' className='hover:text-[#006837] transition ease duration-300'>Code of ethics</Link></li>
                             <li className='mb-3'><Link to='/our-mission' className='hover:text-[#006837] transition ease duration-300'>Our Mission</Link></li>
+                            <li className='mb-3'><Link to='/about-us' className='hover:text-[#006837] transition ease duration-300'>About Us</Link></li>
                         </ul>
                     </div>
                     <div>

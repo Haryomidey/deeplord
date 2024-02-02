@@ -17,7 +17,7 @@ const TechDb = [
         id: 3,
         image: Media,
         contentTitle: 'MEDIA/DISTRIBUTION',
-        techUrl: 'media&distribution',
+        techUrl: 'media-distribution',
         contentDetails: `Let's get your content in-front of the right audience. We help you find and win the right audience and maximize your conversion rate.`
     },
     {
@@ -32,7 +32,7 @@ const TechDb = [
         image: WebDev,
         contentTitle: 'WEB DEV/DESIGN',
         techUrl: 'web-development',
-        contentDetails: 'We provide network infrastructure, designs and implementation, technical support for Networking services, adequate network security and network routine troubleshooting.'
+        contentDetails: 'We offer comprehensive website development services, leveraging latest technologies like HTML, CSS, TailwindCSS, JavaScript, React, Node.js, and Express. Whether you need to build a website from the ground up or revamp an existing one, we have the expertise to meet your needs.'
     },
     {
         id: 6,
