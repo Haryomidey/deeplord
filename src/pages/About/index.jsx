@@ -2,7 +2,6 @@ import Footer from '../../components/Footer'
 import HeroAndNavBar from '../../components/HeroAndNavBar';
 
 import AboutImage from '../../assets/images/about-us.avif';
-import { Light } from 'three';
 
 const About = () => {
     document.title = 'Deeplord Consults | About Us'
