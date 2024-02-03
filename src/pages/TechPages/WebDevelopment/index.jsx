@@ -8,7 +8,7 @@ const WebDevelopment = () => {
         <div>
             <div>
                 <HeroAndNavBar BackgroundImage={WebDevImage} content={'Web Development'} />
-                <div className='w-full min-h-[50vh] tablet:w-[80%] mx-auto text-center flex flex-col items-center desktop:px-32px-5 pb-5'>
+                <div className='w-full min-h-[50vh] tablet:w-[80%] mx-auto text-center flex flex-col items-center desktop:px-32 px-5 pb-5'>
                     <p className='mt-8'>
                         We offer comprehensive website development services, leveraging latest technologies like HTML, CSS, TailwindCSS, JavaScript, React, Node.js, and Express. Whether you need to build a website from the ground up or revamp an existing one, we have the expertise to meet your needs.
                     </p>
