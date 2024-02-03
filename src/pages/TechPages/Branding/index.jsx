@@ -10,12 +10,12 @@ const Branding = () => {
         <div>
             <div>
                 <HeroAndNavBar BackgroundImage={BrandingImage} content={'Branding'} />
-                <div className='w-full min-h-[50vh] tablet:w-[80%] mx-auto text-center flex flex-col items-center desktop:px-32 small:px-5 px-3 pb-5'>
+                <div className='w-full min-h-[50vh] tablet:w-[80%] mx-auto text-center flex flex-col items-center desktop:px-32 px-5 pb-5'>
                     <p className='mt-8'>Our service under branding comprises the whole package. We understand the end goal of business owners and entrepreneurs is to drive traffic and in turn potential customers to their side of the business and keep them glued to either their goods or services. But to successfully have all of these, our team will see to it that the necessary questions are asked and properly answered.</p>
 
                     <h2 className='mt-6 font-semibold text-3xl'>Our services</h2>
                     
-                    <ul className='text-left w-full'>
+                    <ul className='text-left w-full px-4 mt-3'>
                         <li className='list-disc font-semibold'>
                             Logo Design
                         </li>

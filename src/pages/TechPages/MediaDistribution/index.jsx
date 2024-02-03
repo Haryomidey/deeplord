@@ -10,13 +10,13 @@ const MediaDistribution = () => {
         <div>
             <div>
                 <HeroAndNavBar BackgroundImage={Media} content={'Media Distribution'} />
-                <div className='w-full min-h-[50vh] tablet:w-[80%] mx-auto text-center flex flex-col items-center desktop:px-32 small:px-5 px-3 pb-5'>
+                <div className='w-full min-h-[50vh] tablet:w-[80%] mx-auto text-center flex flex-col items-center desktop:px-32 px-5 pb-5'>
                     <p className='mt-8'>
                         Let's get your content in-front of the right audience. We help you find and win the right audience and maximize your conversion rate.
                     </p>
                     <h2 className='mt-6 font-semibold text-3xl'>Our services</h2>
 
-                    <ul className='text-left w-full'>
+                    <ul className='text-left w-full px-4 mt-3'>
                         <li className='list-disc font-semibold'>Managing mobile and website content</li>
                         <li>We understand that some starting businesses may not exactly have the hang of managing their mobile and website content, we can handle that perfectly well and tailor the contents to suit the business.</li>
                         <li className='list-disc font-semibold'>
