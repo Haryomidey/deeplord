@@ -20,6 +20,27 @@ const Networking = () => {
                         <li className='list-disc font-semibold'>Managing mobile and website content</li>
                         <li>We understand that some starting businesses may not exactly have the hang of managing their mobile and website content, we can handle that perfectly well and tailor the contents to suit the business.</li>
                         <li className='list-disc font-semibold'>
+                            (Virtual Private Network) VPN Connectivity services.
+                        </li>
+                        <li className='list-disc font-semibold'>
+                            Wireless Access (Network routes / Security)
+                        </li>
+                        <li className='list-disc font-semibold'>
+                            Local Area Network (LAN)
+                        </li>
+                        <li className='list-disc font-semibold'>
+                            Wide Area Network (WAN)
+                        </li>
+                        <li className='list-disc font-semibold'>
+                            Wireless Local Area Network (WLAN)
+                        </li>
+                        <li className='list-disc font-semibold'>
+                            Campus Area Network (CAN)
+                        </li>
+                        <li className='list-disc font-semibold'>
+                            Personal Area Network (PAN)
+                        </li>
+                        <li className='list-disc font-semibold'>
                             Building and engaging communities
                         </li>
                         <li className='list-disc font-semibold'>
