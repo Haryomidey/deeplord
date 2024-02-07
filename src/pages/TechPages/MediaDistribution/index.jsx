@@ -20,13 +20,13 @@ const MediaDistribution = () => {
                         <li className='list-disc font-semibold'>Managing mobile and website content</li>
                         <li>We understand that some starting businesses may not exactly have the hang of managing their mobile and website content, we can handle that perfectly well and tailor the contents to suit the business.</li>
                         <li className='list-disc font-semibold'>
-                            Building and engaging communities
+                            Social Media and Influencing Management
                         </li>
                         <li className='list-disc font-semibold'>
                             Social media / Google advertisements
                         </li>
                         <li className='list-disc font-semibold'>
-                            ponsoring and featuring programs on the radio and television
+                            Sponsoring and featuring programs on the radio and television
                         </li>
                         <li className='list-disc font-semibold'>
                             Influencer Marketing
